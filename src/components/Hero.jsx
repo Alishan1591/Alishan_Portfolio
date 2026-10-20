@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useState } from "react";
 import {
   ArrowDown,
   ArrowUpRight,
@@ -103,8 +104,17 @@ const Hero = () => {
         </motion.div>
 
         {/* Profile Image */}
-
-        <motion.div
+       <motion.img
+  src="/profile.jpeg"
+  alt="Profile"
+  className="h-40 w-40 rounded-full object-cover"
+  whileHover={{
+    scale: 1.08,
+    rotate: 3,
+  }}
+  transition={{ duration: 0.3 }}
+/>
+        {/* <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
@@ -123,7 +133,7 @@ const Hero = () => {
             />
 
           </div>
-        </motion.div>
+        </motion.div> */}
 
       </div>
     </section>
