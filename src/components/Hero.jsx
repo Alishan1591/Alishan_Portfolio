@@ -49,12 +49,21 @@ const Hero = () => {
             </a>
 
             <a
-              href="/resume.pdf"
+              href="/Alishan_Siddique_Resume.pdf"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-white/15 px-6 py-3.5 text-sm font-medium text-white transition hover:border-white/40"
             >
               Download Resume
+              <ArrowDown size={17} />
+            </a>
+            <a
+              href="/CV.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border border-white/15 px-6 py-3.5 text-sm font-medium text-white transition hover:border-white/40"
+            >
+              Download CV
               <ArrowDown size={17} />
             </a>
 
